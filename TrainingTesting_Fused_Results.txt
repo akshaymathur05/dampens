@@ -1,0 +1,94 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct 27 21:32:37 2022
+
+@author: aksha
+"""
+
+
+
+10/28/22: Friday 
+
+
+Training and CV:   
+
+
+SysCalls CV Mean Accuracy: 91.53558052434457
+SysCalls CV Mean F-Score: 0.9430933876802963
+
+Ntd CV Mean Accuracy: 94.68164794007491
+Ntd CV Mean F-Score: 0.9430933876802963
+
+Perms CV Mean Accuracy: 95.5056179775281
+Perms CV Mean F-Score: 0.952127059777086
+
+
+Testing:
+
+
+
+sys: 
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0   0.942029  0.902778  0.921986        72
+           1   0.895522  0.937500  0.916031        64
+
+    accuracy                       0.919118       136
+   macro avg   0.918776  0.920139  0.919008       136
+weighted avg   0.920144  0.919118  0.919183       136
+
+
+Accuracy:91.91176470588235
+
+F1-Score:0.9160305343511451
+Testing Time (in seconds): 0.10967469215393066
+
+
+ntd: 
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0   0.984375  0.875000  0.926471        72
+           1   0.875000  0.984375  0.926471        64
+
+    accuracy                       0.926471       136
+   macro avg   0.929688  0.929688  0.926471       136
+weighted avg   0.932904  0.926471  0.926471       136
+
+
+Accuracy:92.64705882352942
+
+F1-Score:0.9264705882352942
+Testing Time (in seconds): 0.0029926300048828125
+
+
+perms: 
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0   0.932432  0.958333  0.945205        72
+           1   0.951613  0.921875  0.936508        64
+
+    accuracy                       0.941176       136
+   macro avg   0.942023  0.940104  0.940857       136
+weighted avg   0.941459  0.941176  0.941113       136
+
+
+Accuracy:94.11764705882352
+
+F1-Score:0.9365079365079365
+Testing Time (in seconds): 0.00498652458190918
+
+
+
+Voting Classifier Accuracy: 98.52941176470588
+Voting Classifier F1-Score: 0.984375
+Voting Classifier CM: [[71  1]
+                       [ 1 63]]

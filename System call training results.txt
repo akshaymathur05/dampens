@@ -1,0 +1,112 @@
+RF: 
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0   0.897436  0.961538  0.928382       182
+           1   0.952703  0.875776  0.912621       161
+
+    accuracy                       0.921283       343
+   macro avg   0.925069  0.918657  0.920502       343
+weighted avg   0.923377  0.921283  0.920984       343
+
+
+Accuracy:92.12827988338192
+
+F1-Score:0.9126213592233009
+
+
+MLP: 
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0   0.948864  0.917582  0.932961       182
+           1   0.910180  0.944099  0.926829       161
+
+    accuracy                       0.930029       343
+   macro avg   0.929522  0.930841  0.929895       343
+weighted avg   0.930706  0.930029  0.930083       343
+
+
+Accuracy:93.00291545189503
+
+F1-Score:0.9268292682926829
+
+
+SVM: 
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0   0.913514  0.928571  0.920981       182
+           1   0.917722  0.900621  0.909091       161
+
+    accuracy                       0.915452       343
+   macro avg   0.915618  0.914596  0.915036       343
+weighted avg   0.915489  0.915452  0.915400       343
+
+
+Accuracy:91.54518950437318
+
+F1-Score:0.9090909090909092
+
+
+DT: 
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0   0.858757  0.835165  0.846797       182
+           1   0.819277  0.844720  0.831804       161
+
+    accuracy                       0.839650       343
+   macro avg   0.839017  0.839943  0.839300       343
+weighted avg   0.840226  0.839650  0.839759       343
+
+
+Accuracy:83.96501457725948
+
+F1-Score:0.8318042813455657
+
+
+KNN: 
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0   0.903955  0.879121  0.891365       182
+           1   0.867470  0.894410  0.880734       161
+
+    accuracy                       0.886297       343
+   macro avg   0.885712  0.886765  0.886049       343
+weighted avg   0.886829  0.886297  0.886375       343
+
+
+Accuracy:88.62973760932945
+
+F1-Score:0.8807339449541285
+
+
+MNB: 
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0   0.891566  0.813187  0.850575       182
+           1   0.807910  0.888199  0.846154       161
+
+    accuracy                       0.848397       343
+   macro avg   0.849738  0.850693  0.848364       343
+weighted avg   0.852299  0.848397  0.848500       343
+
+
+Accuracy:84.8396501457726
+
+F1-Score:0.8461538461538461
